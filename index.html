@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<head>
+<title>Hiwell</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/colors/main.css" id="colors">
+</head>
+<body>
+<div id="wrapper">
+<header id="header-container">
+	<div id="header">
+		<div class="container">
+			<div class="left-side">
+				<div id="logo">
+					<a href="index.html"><img src="images/logo.png"></a>
+				</div>
+
+				<!-- Mobile Navigation -->
+				<div class="mmenu-trigger">
+					<button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+			</div>
+			<div class="right-side">
+				<div class="header-widget">
+						<nav id="navigation" class="style-1">
+								<ul id="responsive">
+									<li><a class="current" href="#">Home</a></li>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Blog</a>
+								</ul>
+							</nav>
+					<a href="#sign-in-dialog" class="sign-in popup-with-zoom-anim"><i class="sl sl-icon-login"></i> Sign In</a>
+				</div>
+			</div>
+			<div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
+				<div class="small-dialog-header">
+					<h3>Sign In</h3>
+				</div>
+				<div class="sign-in-form style-1">
+					<ul class="tabs-nav">
+						<li class="">
+							<a href="#tab1">Log In</a>
+						</li>
+						<li>
+							<a href="#tab2">Register</a>
+						</li>
+					</ul>
+					<div class="tabs-container alt">
+
+						<!-- Login -->
+						<div class="tab-content" id="tab1" style="display: none;">
+							<form method="post" class="login">
+
+								<p class="form-row form-row-wide">
+									<label for="username">Username:
+										<i class="im im-icon-Male"></i>
+										<input type="text" class="input-text" name="username" id="username" value="" />
+									</label>
+								</p>
+
+								<p class="form-row form-row-wide">
+									<label for="password">Password:
+										<i class="im im-icon-Lock-2"></i>
+										<input class="input-text" type="password" name="password" id="password"/>
+									</label>
+									<span class="lost_password">
+										<a href="#" >Lost Your Password?</a>
+									</span>
+								</p>
+
+								<div class="form-row">
+									<input type="submit" class="button border margin-top-5" name="login" value="Login" />
+									<div class="checkboxes margin-top-10">
+										<input id="remember-me" type="checkbox" name="check">
+										<label for="remember-me">Remember Me</label>
+									</div>
+								</div>
+								
+							</form>
+						</div>
+
+						<!-- Register -->
+						<div class="tab-content" id="tab2" style="display: none;">
+
+							<form method="post" class="register">
+								
+							<p class="form-row form-row-wide">
+								<label for="username2">Username:
+									<i class="im im-icon-Male"></i>
+									<input type="text" class="input-text" name="username" id="username2" value="" />
+								</label>
+							</p>
+								
+							<p class="form-row form-row-wide">
+								<label for="email2">Email Address:
+									<i class="im im-icon-Mail"></i>
+									<input type="text" class="input-text" name="email" id="email2" value="" />
+								</label>
+							</p>
+
+							<p class="form-row form-row-wide">
+								<label for="password1">Password:
+									<i class="im im-icon-Lock-2"></i>
+									<input class="input-text" type="password" name="password1" id="password1"/>
+								</label>
+							</p>
+
+							<p class="form-row form-row-wide">
+								<label for="password2">Repeat Password:
+									<i class="im im-icon-Lock-2"></i>
+									<input class="input-text" type="password" name="password2" id="password2"/>
+								</label>
+							</p>
+
+							<input type="submit" class="button border fw margin-top-10" name="register" value="Register" />
+	
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="clearfix"></div>
+
+<!-- Banner
+================================================== -->
+<div class="main-search-container" data-background-image="images/slider.png">
+	<div class="main-search-inner">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Temukan Dokter Terdekat</h2>
+					<h4>Temukan Dokter, Apotek, atau Poliklinik di sekitarmu</h4>
+
+					<div class="main-search-input">
+
+						<div class="main-search-input-item">
+							<input type="text" placeholder="Apa keluhan anda ?" value=""/>
+						</div>
+
+						<div class="main-search-input-item location">
+							<input type="text" placeholder="Lokasi" value=""/>
+							<a href="#"><i class="fa fa-dot-circle-o"></i></a>
+						</div>
+
+						<div class="main-search-input-item">
+							<select data-placeholder="Semua Kategori" class="chosen-select" >
+								<option>Semua Kategori</option>	
+								<option>Apotek</option>
+								<option>Dokter Umum</option>
+								<option>Dokter Spesialis</option>
+								<option>Poliklinik</option>
+								<option>Rumah Sakit</option>
+							</select>
+						</div>
+
+						<button class="button" onclick="window.location.href='#'">Search</button>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- Fullwidth Section -->
+<section class="fullwidth margin-top-65 padding-top-75 padding-bottom-70" data-background-color="#f8f8f8">
+
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12">
+				<h3 class="headline centered margin-bottom-45">
+					Most Doctors, and Poliklinik
+					<span>Discover top-rated local Doctors, and Poliklinik</span>
+				</h3>
+			</div>
+
+			<div class="col-md-12">
+				<div class="simple-slick-carousel dots-nav">
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="#" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/adhi.png" alt="">
+
+							<div class="listing-badge now-open">24 Jam</div>
+							
+							<div class="listing-item-content">
+								<span class="tag">Poliklinik</span>
+								<h3>Adhi Pradana</h3>
+								<span>Jalan KS. Tubun, Tegal</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="3.5">
+							<div class="rating-counter">(12 reviews)</div>
+						</div>
+					</a>
+				</div>
+				<!-- Listing Item / End -->
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="#" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/indra.jpg" alt="">
+							<div class="listing-item-details">
+								<ul>
+									<li>Hari Kerja, Senin - Kamis</li>
+								</ul>
+							</div>
+							<div class="listing-item-content">
+								<span class="tag">Spesialisasi: Syaraf</span>
+								<h3>Dr. Indrawan Mardik, Sp.S</h3>
+								<span>Mitra Keluarga Tegal</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="5.0">
+							<div class="rating-counter">(23 reviews)</div>
+						</div>
+					</a>
+				</div>
+				<!-- Listing Item / End -->		
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="#" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/gilang.jpg" alt="">
+							<div class="listing-item-details">
+								<ul>
+									<li>Hari Kerja, Senin - Kamis</li>
+								</ul>
+							</div>
+							<div class="listing-item-content">
+								<span class="tag">Dokter Umum</span>
+								<h3>dr. Yanuar Pradana</h3>
+								<span>Mitra Keluarga Tegal</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="2.0">
+							<div class="rating-counter">(17 reviews)</div>
+						</div>
+					</a>
+				</div>
+				<!-- Listing Item / End -->
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="#" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/ali.jpg" alt="">
+
+							<div class="listing-badge now-open">Buka</div>
+
+							<div class="listing-item-content">
+								<span class="tag">THT</span>
+								<h3>Dr. Ali Boedihardjo, Sp.THT</h3>
+								<span>Mitra Keluarga Tegal</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="5.0">
+							<div class="rating-counter">(31 reviews)</div>
+						</div>
+					</a>
+				</div>
+				</div>
+				
+			</div>
+
+		</div>
+	</div>
+
+</section>
+<!-- Fullwidth Section / End -->
+
+
+<!-- Info Section -->
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<h2 class="headline centered margin-top-80">
+				Temukan Dokter, Poliklinik atau Rumah Sakit 
+				<span class="margin-top-25">Temukan Dokter, Poliklinik atau Rumah Sakit lebih cepat dan akurat.</span>
+			</h2>
+		</div>
+	</div>
+
+	<div class="row icons-container">
+		<!-- Stage -->
+		<div class="col-md-4">
+			<div class="icon-box-2 with-line">
+				<i class="im im-icon-Map2"></i>
+				<h3>Temukan Dokter Terdekat</h3>
+			</div>
+		</div>
+
+		<!-- Stage -->
+		<div class="col-md-4">
+			<div class="icon-box-2 with-line">
+				<i class="im im-icon-Mail-withAtSign"></i>
+				<h3>Hubungi Dokter Langsung</h3>
+			</div>
+		</div>
+
+		<!-- Stage -->
+		<div class="col-md-4">
+			<div class="icon-box-2">
+				<i class="im im-icon-Checked-User"></i>
+				<h3>Reservasi Online</h3>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!-- Info Section / End -->
+
+
+<!-- Recent Blog Posts -->
+<section class="fullwidth border-top margin-top-70 padding-top-75 padding-bottom-75" data-background-color="#fff">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-12">
+				<h3 class="headline centered margin-bottom-45">
+					Artikel Terbaru
+				</h3>
+			</div>
+		</div>
+
+		<div class="row">
+			<!-- Blog Post Item -->
+			<div class="col-md-4">
+				<a href="#" class="blog-compact-item-container">
+					<div class="blog-compact-item">
+						<img src="images/gaya-hidup-sehat.jpg" alt="">
+						<span class="blog-item-tag">Tips</span>
+						<div class="blog-compact-item-content">
+							<ul class="blog-post-tags">
+								<li>9 Desember 2017</li>
+							</ul>
+							<h3>Gaya Hidup Sehat</h3>
+							<p>Menurut organisasi kesehatan dunia (WHO), pola makan tidak sehat dan kurangnya aktivitas fisik merupakan faktor risiko kesehatan global yang utama..</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!-- Blog post Item / End -->
+
+			<!-- Blog Post Item -->
+			<div class="col-md-4">
+				<a href="#" class="blog-compact-item-container">
+					<div class="blog-compact-item">
+						<img src="images/gigi.jpg" alt="">
+						<span class="blog-item-tag">Tips</span>
+						<div class="blog-compact-item-content">
+							<ul class="blog-post-tags">
+								<li>9 Desember 2017</li>
+							</ul>
+							<h3>Seberapa Sering Kita Harus Bersihkan Karang Gigi di Dokter?</h3>
+							<p>Masalah gigi dan mulut sering disepelekan, padahal gigi dan mulut adalah...</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!-- Blog post Item / End -->
+
+			<!-- Blog Post Item -->
+			<div class="col-md-4">
+				<a href="#" class="blog-compact-item-container">
+					<div class="blog-compact-item">
+						<img src="images/anak.jpg" alt="">
+						<span class="blog-item-tag">Tips</span>
+						<div class="blog-compact-item-content">
+							<ul class="blog-post-tags">
+								<li>10 Desember 2017</li>
+							</ul>
+							<h3>Anak Anda Susah Makan? Coba Trik Ini</h3>
+							<p>Anak Anda Susah Makan? Coba Trik Ini...</p>
+							<p>Anak yang menutup mulut saat disuapi makanan atau anak yang hanya mau makan satu.</p>
+						</div>
+					</div>
+				</a>
+			</div>
+			<!-- Blog post Item / End -->
+
+			<div class="col-md-12 centered-content">
+				<a href="#" class="button border margin-top-10">Lihat Blog</a>
+			</div>
+
+		</div>
+
+	</div>
+</section>
+
+<!-- Footer
+================================================== -->
+<div id="footer" class="sticky-footer">
+	<!-- Main -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-sm-6">
+				<img class="footer-logo" src="images/logo.png" alt="">
+				<br><br>
+				<p>Hiwell adalah aplikasi yang memudahkan dalam mencari Dokter, Klinik, atau Rumah Sakit terdekat.</p>
+			</div>
+
+			<div class="col-md-4 col-sm-6 ">
+				<h4>Tautan Bantuan</h4>
+				<ul class="footer-links">
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Blog</a></li>
+				</ul>
+
+				<ul class="footer-links">
+					<li><a href="#">Our Partners</a></li>
+					<li><a href="#">How It Works</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<div class="clearfix"></div>
+			</div>		
+
+			<div class="col-md-3  col-sm-12">
+				<h4>Hubungi Kami</h4>
+				<div class="text-widget">
+					<span>Condongcatur Depok, Sleman</span> <br>
+					Phone: <span>(123) 123-456 </span><br>
+					E-Mail:<span> <a href="#">info@hiwel.com</a> </span><br>
+				</div>
+
+				<ul class="social-icons margin-top-20">
+					<li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
+					<li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
+					<li><a class="gplus" href="#"><i class="icon-gplus"></i></a></li>
+					<li><a class="vimeo" href="#"><i class="icon-vimeo"></i></a></li>
+				</ul>
+
+			</div>
+
+		</div>
+		
+		<!-- Copyright -->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="copyrights">© 2017 Hiwell. All Rights Reserved.</div>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+<!-- Footer / End -->
+
+
+<!-- Back To Top Button -->
+	<div id="backtotop"><a href="#"></a></div>
+
+</div>
+<!-- Wrapper / End -->
+	<script src="/cdn-cgi/scripts/0e574bed/cloudflare-static/email-decode.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="scripts/mmenu.min.js"></script>
+	<script type="text/javascript" src="scripts/chosen.min.js"></script>
+	<script type="text/javascript" src="scripts/slick.min.js"></script>
+	<script type="text/javascript" src="scripts/rangeslider.min.js"></script>
+	<script type="text/javascript" src="scripts/magnific-popup.min.js"></script>
+	<script type="text/javascript" src="scripts/waypoints.min.js"></script>
+	<script type="text/javascript" src="scripts/counterup.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="scripts/tooltips.min.js"></script>
+	<script type="text/javascript" src="scripts/custom.js"></script>
+</body>
+</html>
