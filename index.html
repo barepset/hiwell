@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <head>
-<title>Hiwell</title>
+
+<!-- Basic Page Needs
+================================================== -->
+<title>Listeo</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- CSS
+================================================== -->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/colors/main.css" id="colors">
+
 </head>
+
 <body>
+
+<!-- Wrapper -->
 <div id="wrapper">
+
+<!-- Header Container
+================================================== -->
 <header id="header-container">
+
+	<!-- Header -->
 	<div id="header">
 		<div class="container">
+			
+			<!-- Left Side Content -->
 			<div class="left-side">
+				
+				<!-- Logo -->
 				<div id="logo">
-					<a href="index.html"><img src="images/logo.png"></a>
+					<a href="index.html"><img src="images/logo.png" alt=""></a>
 				</div>
 
 				<!-- Mobile Navigation -->
@@ -24,32 +43,114 @@
 						</span>
 					</button>
 				</div>
+
+
+				<!-- Main Navigation -->
+				<nav id="navigation" class="style-1">
+					<ul id="responsive">
+
+						<li><a class="current" href="#">Home</a>
+							<ul>
+								<li><a href="index.html">Home 1</a></li>
+								<li><a href="index-2.html">Home 2</a></li>
+								<li><a href="index-3.html">Home 3</a></li>
+								<li><a href="index-4.html">Home 4</a></li>
+							</ul>
+						</li>
+
+						<li><a href="#">Listings</a>
+							<ul>
+								<li><a href="#">List Layout</a>
+									<ul>
+										<li><a href="listings-list-with-sidebar.html">With Sidebar</a></li>
+										<li><a href="listings-list-full-width.html">Full Width</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Grid Layout</a>
+									<ul>
+										<li><a href="listings-grid-with-sidebar-1.html">With Sidebar 1</a></li>
+										<li><a href="listings-grid-with-sidebar-2.html">With Sidebar 2</a></li>
+										<li><a href="listings-grid-full-width.html">Full Width</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Half Screen Map</a>
+									<ul>
+										<li><a href="listings-half-screen-map-list.html">List Layout</a></li>
+										<li><a href="listings-half-screen-map-grid-1.html">Grid Layout 1</a></li>
+										<li><a href="listings-half-screen-map-grid-2.html">Grid Layout 2</a></li>
+									</ul>
+								</li>
+								<li><a href="listings-single-page.html">Single Listing</a></li>
+							</ul>
+						</li>
+
+						<li><a href="#">User Panel</a>
+							<ul>
+								<li><a href="dashboard.html">Dashboard</a></li>
+								<li><a href="dashboard-messages.html">Messages</a></li>
+								<li><a href="dashboard-bookings.html">Bookings</a></li>
+								<li><a href="dashboard-my-listings.html">My Listings</a></li>
+								<li><a href="dashboard-reviews.html">Reviews</a></li>
+								<li><a href="dashboard-bookmarks.html">Bookmarks</a></li>
+								<li><a href="dashboard-add-listing.html">Add Listing</a></li>
+								<li><a href="dashboard-my-profile.html">My Profile</a></li>
+								<li><a href="dashboard-invoice.html">Invoice</a></li>
+							</ul>
+						</li>
+
+						<li><a href="#">Pages</a>
+							<ul>
+								<li><a href="pages-user-profile.html">User Profile</a></li>
+								<li><a href="pages-booking.html">Booking Page</a></li>
+								<li><a href="pages-blog.html">Blog</a>
+									<ul>
+										<li><a href="pages-blog.html">Blog</a></li>
+										<li><a href="pages-blog-post.html">Blog Post</a></li>
+									</ul>
+								</li>
+								<li><a href="pages-contact.html">Contact</a></li>
+								<li><a href="pages-coming-soon.html">Coming Soon</a></li>
+								<li><a href="pages-elements.html">Elements</a></li>
+								<li><a href="pages-pricing-tables.html">Pricing Tables</a></li>
+								<li><a href="pages-typography.html">Typography</a></li>
+								<li><a href="pages-404.html">404 Page</a></li>
+								<li><a href="pages-icons.html">Icons</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+				</nav>
+				<div class="clearfix"></div>
+				<!-- Main Navigation / End -->
+				
 			</div>
+			<!-- Left Side Content / End -->
+
+
+			<!-- Right Side Content / End -->
 			<div class="right-side">
 				<div class="header-widget">
-						<nav id="navigation" class="style-1">
-								<ul id="responsive">
-									<li><a class="current" href="#">Home</a></li>
-									<li><a href="#">About</a></li>
-									<li><a href="blog.html">Blog</a></li>
-								</ul>
-							</nav>
 					<a href="#sign-in-dialog" class="sign-in popup-with-zoom-anim"><i class="sl sl-icon-login"></i> Sign In</a>
+					<a href="dashboard-add-listing.html" class="button border with-icon">Add Listing <i class="sl sl-icon-plus"></i></a>
 				</div>
 			</div>
+			<!-- Right Side Content / End -->
+
+			<!-- Sign In Popup -->
 			<div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
+
 				<div class="small-dialog-header">
 					<h3>Sign In</h3>
 				</div>
+
+				<!--Tabs -->
 				<div class="sign-in-form style-1">
+
 					<ul class="tabs-nav">
-						<li class="">
-							<a href="#tab1">Log In</a>
-						</li>
-						<li>
-							<a href="#tab2">Register</a>
-						</li>
+						<li class=""><a href="#tab1">Log In</a></li>
+						<li><a href="#tab2">Register</a></li>
 					</ul>
+
 					<div class="tabs-container alt">
 
 						<!-- Login -->
@@ -125,44 +226,51 @@
 					</div>
 				</div>
 			</div>
+			<!-- Sign In Popup / End -->
+
 		</div>
 	</div>
+	<!-- Header / End -->
+
 </header>
 <div class="clearfix"></div>
+<!-- Header Container / End -->
+
 
 <!-- Banner
 ================================================== -->
-<div class="main-search-container" data-background-image="images/slider.png">
+<div class="main-search-container" data-background-image="images/main-search-background-01.jpg">
 	<div class="main-search-inner">
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Temukan Dokter Terdekat</h2>
-					<h4>Temukan Dokter, Apotek, atau Poliklinik di sekitarmu</h4>
+					<h2>Find Nearby Attractions</h2>
+					<h4>Expolore top-rated attractions, activities and more</h4>
 
 					<div class="main-search-input">
 
 						<div class="main-search-input-item">
-							<input type="text" placeholder="Apa keluhan anda ?" value=""/>
+							<input type="text" placeholder="What are you looking for?" value=""/>
 						</div>
 
 						<div class="main-search-input-item location">
-							<input type="text" placeholder="Lokasi" value=""/>
+							<input type="text" placeholder="Location" value=""/>
 							<a href="#"><i class="fa fa-dot-circle-o"></i></a>
 						</div>
 
 						<div class="main-search-input-item">
-							<select data-placeholder="Semua Kategori" class="chosen-select" >
-								<option>Semua Kategori</option>	
-								<option>Apotek</option>
-								<option>Dokter Umum</option>
-								<option>Dokter Spesialis</option>
-								<option>Poliklinik</option>
-								<option>Rumah Sakit</option>
+							<select data-placeholder="All Categories" class="chosen-select" >
+								<option>All Categories</option>	
+								<option>Shops</option>
+								<option>Hotels</option>
+								<option>Restaurants</option>
+								<option>Fitness</option>
+								<option>Events</option>
 							</select>
 						</div>
 
-						<button class="button" onclick="window.location.href='#'">Search</button>
+						<button class="button" onclick="window.location.href='listings-half-screen-map-list.html'">Search</button>
 
 					</div>
 				</div>
@@ -171,6 +279,111 @@
 
 	</div>
 </div>
+
+
+<!-- Content
+================================================== -->
+<div class="container">
+	<div class="row">
+
+		<div class="col-md-12">
+			<h3 class="headline centered margin-top-75">
+				Popular Categories
+				<span>Browse <i>the most desirable</i> categories</span>
+			</h3>
+		</div>
+
+	</div>
+</div>
+
+
+<!-- Categories Carousel -->
+<div class="fullwidth-carousel-container margin-top-25">
+	<div class="fullwidth-slick-carousel category-carousel">
+
+		<!-- Item -->
+		<div class="fw-carousel-item">
+
+			<!-- this (first) box will be hidden under 1680px resolution -->
+			<div class="category-box-container half">
+				<a href="listings-half-screen-map-grid-1.html" class="category-box" data-background-image="images/gigi.jpg">
+					<div class="category-box-content">
+						<h3>Hotels</h3>
+						<span>64 listings</span>
+					</div>
+					<span class="category-box-btn">Browse</span>
+				</a>
+			</div>
+
+			<div class="category-box-container half">
+				<a href="listings-half-screen-map-grid-1.html" class="category-box" data-background-image="images/indra.jpg">
+					<div class="category-box-content">
+						<h3>Shops</h3>
+						<span>14 listings</span>
+					</div>
+					<span class="category-box-btn">Browse</span>
+				</a>
+			</div>
+		</div>
+
+		<!-- Item -->
+		<div class="fw-carousel-item">
+			<div class="category-box-container">
+				<a href="listings-half-screen-map-grid-1.html" class="category-box" data-background-image="images/blog-post-01.jpg">
+					<div class="category-box-content">
+						<h3>Events</h3>
+						<span>67 listings</span>
+					</div>
+					<span class="category-box-btn">Browse</span>
+				</a>
+			</div>
+		</div>
+
+		<!-- Item -->
+		<div class="fw-carousel-item">
+			<div class="category-box-container">
+				<a href="listings-half-screen-map-grid-1.html" class="category-box" data-background-image="images/listing-item-03.jpg">
+					<div class="category-box-content">
+						<h3>Fitness</h3>
+						<span>27 listings</span>
+					</div>
+					<span class="category-box-btn">Browse</span>
+				</a>
+			</div>
+		</div>
+
+		<!-- Item -->
+		<div class="fw-carousel-item">
+			<div class="category-box-container">
+				<a href="listings-half-screen-map-list.html" class="category-box" data-background-image="images/anak.jpg">
+					<div class="category-box-content">
+						<h3>Nightlife</h3>
+						<span>22 listings</span>
+					</div>
+					<span class="category-box-btn">Browse</span>
+				</a>
+			</div>
+		</div>
+
+		<!-- Item -->
+		<div class="fw-carousel-item">
+			<div class="category-box-container">
+				<a href="listings-half-screen-map-list.html" class="category-box" data-background-image="images/review-image-01.jpg">
+					<div class="category-box-content">
+						<h3>Eat & Drink</h3>
+						<span>130 listings</span>
+					</div>
+					<span class="category-box-btn">Browse</span>
+				</a>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- Categories Carousel / End -->
+
+
+
 <!-- Fullwidth Section -->
 <section class="fullwidth margin-top-65 padding-top-75 padding-bottom-70" data-background-color="#f8f8f8">
 
@@ -179,8 +392,8 @@
 
 			<div class="col-md-12">
 				<h3 class="headline centered margin-bottom-45">
-					Most Doctors, and Poliklinik
-					<span>Discover top-rated local Doctors, and Poliklinik</span>
+					Most Visited Places
+					<span>Discover top-rated local businesses</span>
 				</h3>
 			</div>
 
@@ -189,16 +402,16 @@
 
 				<!-- Listing Item -->
 				<div class="carousel-item">
-					<a href="#" class="listing-item-container">
+					<a href="listings-single-page.html" class="listing-item-container">
 						<div class="listing-item">
-							<img src="images/adhi.png" alt="">
+							<img src="images/listing-item-01.jpg" alt="">
 
-							<div class="listing-badge now-open">24 Jam</div>
+							<div class="listing-badge now-open">Now Open</div>
 							
 							<div class="listing-item-content">
-								<span class="tag">Poliklinik</span>
-								<h3>Adhi Pradana</h3>
-								<span>Jalan KS. Tubun, Tegal</span>
+								<span class="tag">Eat & Drink</span>
+								<h3>Tom's Restaurant</h3>
+								<span>964 School Street, New York</span>
 							</div>
 							<span class="like-icon"></span>
 						</div>
@@ -211,18 +424,18 @@
 
 				<!-- Listing Item -->
 				<div class="carousel-item">
-					<a href="#" class="listing-item-container">
+					<a href="listings-single-page.html" class="listing-item-container">
 						<div class="listing-item">
-							<img src="images/indra.jpg" alt="">
+							<img src="images/listing-item-02.jpg" alt="">
 							<div class="listing-item-details">
 								<ul>
-									<li>Hari Kerja, Senin - Kamis</li>
+									<li>Friday, August 10</li>
 								</ul>
 							</div>
 							<div class="listing-item-content">
-								<span class="tag">Spesialisasi: Syaraf</span>
-								<h3>Dr. Indrawan Mardik, Sp.S</h3>
-								<span>Mitra Keluarga Tegal</span>
+								<span class="tag">Events</span>
+								<h3>Sticky Band</h3>
+								<span>Bishop Avenue, New York</span>
 							</div>
 							<span class="like-icon"></span>
 						</div>
@@ -235,18 +448,18 @@
 
 				<!-- Listing Item -->
 				<div class="carousel-item">
-					<a href="#" class="listing-item-container">
+					<a href="listings-single-page.html" class="listing-item-container">
 						<div class="listing-item">
-							<img src="images/gilang.jpg" alt="">
+							<img src="images/listing-item-03.jpg" alt="">
 							<div class="listing-item-details">
 								<ul>
-									<li>Hari Kerja, Senin - Kamis</li>
+									<li>Starting from $59 per night</li>
 								</ul>
 							</div>
 							<div class="listing-item-content">
-								<span class="tag">Dokter Umum</span>
-								<h3>dr. Yanuar Pradana</h3>
-								<span>Mitra Keluarga Tegal</span>
+								<span class="tag">Hotels</span>
+								<h3>Hotel Govendor</h3>
+								<span>778 Country Street, New York</span>
 							</div>
 							<span class="like-icon"></span>
 						</div>
@@ -259,16 +472,16 @@
 
 				<!-- Listing Item -->
 				<div class="carousel-item">
-					<a href="#" class="listing-item-container">
+					<a href="listings-single-page.html" class="listing-item-container">
 						<div class="listing-item">
-							<img src="images/ali.jpg" alt="">
+							<img src="images/listing-item-04.jpg" alt="">
 
-							<div class="listing-badge now-open">Buka</div>
+							<div class="listing-badge now-open">Now Open</div>
 
 							<div class="listing-item-content">
-								<span class="tag">THT</span>
-								<h3>Dr. Ali Boedihardjo, Sp.THT</h3>
-								<span>Mitra Keluarga Tegal</span>
+								<span class="tag">Eat & Drink</span>
+								<h3>Burger House</h3>
+								<span>2726 Shinn Street, New York</span>
 							</div>
 							<span class="like-icon"></span>
 						</div>
@@ -277,6 +490,48 @@
 						</div>
 					</a>
 				</div>
+				<!-- Listing Item / End -->
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="listings-single-page.html" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/listing-item-05.jpg" alt="">
+							<div class="listing-item-content">
+								<span class="tag">Other</span>
+								<h3>Airport</h3>
+								<span>1512 Duncan Avenue, New York</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="3.5">
+							<div class="rating-counter">(46 reviews)</div>
+						</div>
+					</a>
+				</div>
+				<!-- Listing Item / End -->
+
+				<!-- Listing Item -->
+				<div class="carousel-item">
+					<a href="listings-single-page.html" class="listing-item-container">
+						<div class="listing-item">
+							<img src="images/listing-item-06.jpg" alt="">
+
+							<div class="listing-badge now-closed">Now Closed</div>
+
+							<div class="listing-item-content">
+								<span class="tag">Eat & Drink</span>
+								<h3>Think Coffee</h3>
+								<span>215 Terry Lane, New York</span>
+							</div>
+							<span class="like-icon"></span>
+						</div>
+						<div class="star-rating" data-rating="4.5">
+							<div class="rating-counter">(15 reviews)</div>
+						</div>
+					</a>
+				</div>
+				<!-- Listing Item / End -->
 				</div>
 				
 			</div>
@@ -294,8 +549,8 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<h2 class="headline centered margin-top-80">
-				Temukan Dokter, Poliklinik atau Rumah Sakit 
-				<span class="margin-top-25">Temukan Dokter, Poliklinik atau Rumah Sakit lebih cepat dan akurat.</span>
+				Plan The Vacation of Your Dreams 
+				<span class="margin-top-25">Explore some of the best tips from around the world from our partners and friends.  Discover some of the most popular listings in Sydney.</span>
 			</h2>
 		</div>
 	</div>
@@ -305,7 +560,8 @@
 		<div class="col-md-4">
 			<div class="icon-box-2 with-line">
 				<i class="im im-icon-Map2"></i>
-				<h3>Temukan Dokter Terdekat</h3>
+				<h3>Find Interesting Place</h3>
+				<p>Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus tellus ut, convallis eros sollicitudin turpis.</p>
 			</div>
 		</div>
 
@@ -313,7 +569,8 @@
 		<div class="col-md-4">
 			<div class="icon-box-2 with-line">
 				<i class="im im-icon-Mail-withAtSign"></i>
-				<h3>Hubungi Dokter Langsung</h3>
+				<h3>Contact a Few Owners</h3>
+				<p>Maecenas pulvinar, risus in facilisis dignissim, quam nisi hendrerit nulla, id vestibulum metus nullam viverra porta purus.</p>
 			</div>
 		</div>
 
@@ -321,7 +578,8 @@
 		<div class="col-md-4">
 			<div class="icon-box-2">
 				<i class="im im-icon-Checked-User"></i>
-				<h3>Reservasi Online</h3>
+				<h3>Make a Reservation</h3>
+				<p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus sollicitudin feugiat pharetra consectetur.</p>
 			</div>
 		</div>
 	</div>
@@ -337,7 +595,7 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h3 class="headline centered margin-bottom-45">
-					Artikel Terbaru
+					From The Blog
 				</h3>
 			</div>
 		</div>
@@ -345,16 +603,16 @@
 		<div class="row">
 			<!-- Blog Post Item -->
 			<div class="col-md-4">
-				<a href="#" class="blog-compact-item-container">
+				<a href="pages-blog-post.html" class="blog-compact-item-container">
 					<div class="blog-compact-item">
-						<img src="images/gaya-hidup-sehat.jpg" alt="">
+						<img src="images/blog-compact-post-01.jpg" alt="">
 						<span class="blog-item-tag">Tips</span>
 						<div class="blog-compact-item-content">
 							<ul class="blog-post-tags">
-								<li>9 Desember 2017</li>
+								<li>22 August 2017</li>
 							</ul>
-							<h3>Gaya Hidup Sehat</h3>
-							<p>Menurut organisasi kesehatan dunia (WHO), pola makan tidak sehat dan kurangnya aktivitas fisik merupakan faktor risiko kesehatan global yang utama..</p>
+							<h3>Hotels for All Budgets</h3>
+							<p>Sed sed tristique nibh iam porta volutpat finibus. Donec in aliquet urneget mattis lorem. Pellentesque pellentesque.</p>
 						</div>
 					</div>
 				</a>
@@ -363,16 +621,16 @@
 
 			<!-- Blog Post Item -->
 			<div class="col-md-4">
-				<a href="#" class="blog-compact-item-container">
+				<a href="pages-blog-post.html" class="blog-compact-item-container">
 					<div class="blog-compact-item">
-						<img src="images/gigi.jpg" alt="">
+						<img src="images/blog-compact-post-02.jpg" alt="">
 						<span class="blog-item-tag">Tips</span>
 						<div class="blog-compact-item-content">
 							<ul class="blog-post-tags">
-								<li>9 Desember 2017</li>
+								<li>18 August 2017</li>
 							</ul>
-							<h3>Seberapa Sering Kita Harus Bersihkan Karang Gigi di Dokter?</h3>
-							<p>Masalah gigi dan mulut sering disepelekan, padahal gigi dan mulut adalah...</p>
+							<h3>The 50 Greatest Street Arts In London</h3>
+							<p>Sed sed tristique nibh iam porta volutpat finibus. Donec in aliquet urneget mattis lorem. Pellentesque pellentesque.</p>
 						</div>
 					</div>
 				</a>
@@ -381,17 +639,16 @@
 
 			<!-- Blog Post Item -->
 			<div class="col-md-4">
-				<a href="#" class="blog-compact-item-container">
+				<a href="pages-blog-post.html" class="blog-compact-item-container">
 					<div class="blog-compact-item">
-						<img src="images/anak.jpg" alt="">
+						<img src="images/blog-compact-post-03.jpg" alt="">
 						<span class="blog-item-tag">Tips</span>
 						<div class="blog-compact-item-content">
 							<ul class="blog-post-tags">
-								<li>10 Desember 2017</li>
+								<li>10 August 2017</li>
 							</ul>
-							<h3>Anak Anda Susah Makan? Coba Trik Ini</h3>
-							<p>Anak Anda Susah Makan? Coba Trik Ini...</p>
-							<p>Anak yang menutup mulut saat disuapi makanan atau anak yang hanya mau makan satu.</p>
+							<h3>The Best Cofee Shops In Sydney Neighborhoods</h3>
+							<p>Sed sed tristique nibh iam porta volutpat finibus. Donec in aliquet urneget mattis lorem. Pellentesque pellentesque.</p>
 						</div>
 					</div>
 				</a>
@@ -399,13 +656,15 @@
 			<!-- Blog post Item / End -->
 
 			<div class="col-md-12 centered-content">
-				<a href="#" class="button border margin-top-10">Lihat Blog</a>
+				<a href="pages-blog.html" class="button border margin-top-10">View Blog</a>
 			</div>
 
 		</div>
 
 	</div>
 </section>
+<!-- Recent Blog Posts / End -->
+
 
 <!-- Footer
 ================================================== -->
@@ -416,19 +675,23 @@
 			<div class="col-md-5 col-sm-6">
 				<img class="footer-logo" src="images/logo.png" alt="">
 				<br><br>
-				<p>Hiwell adalah aplikasi yang memudahkan dalam mencari Dokter, Klinik, atau Rumah Sakit terdekat.</p>
+				<p>Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</p>
 			</div>
 
 			<div class="col-md-4 col-sm-6 ">
-				<h4>Tautan Bantuan</h4>
+				<h4>Helpful Links</h4>
 				<ul class="footer-links">
 					<li><a href="#">Login</a></li>
 					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">My Account</a></li>
+					<li><a href="#">Add Listing</a></li>
+					<li><a href="#">Pricing</a></li>
 					<li><a href="#">Privacy Policy</a></li>
-					<li><a href="#">Blog</a></li>
 				</ul>
 
 				<ul class="footer-links">
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Blog</a></li>
 					<li><a href="#">Our Partners</a></li>
 					<li><a href="#">How It Works</a></li>
 					<li><a href="#">Contact</a></li>
@@ -437,11 +700,11 @@
 			</div>		
 
 			<div class="col-md-3  col-sm-12">
-				<h4>Hubungi Kami</h4>
+				<h4>Contact Us</h4>
 				<div class="text-widget">
-					<span>Condongcatur Depok, Sleman</span> <br>
+					<span>12345 Little Lonsdale St, Melbourne</span> <br>
 					Phone: <span>(123) 123-456 </span><br>
-					E-Mail:<span> <a href="#">info@hiwel.com</a> </span><br>
+					E-Mail:<span> <a href="#"><span class="__cf_email__" data-cfemail="4b242d2d22282e0b2e332a263b272e65282426">[email&#160;protected]</span></a> </span><br>
 				</div>
 
 				<ul class="social-icons margin-top-20">
@@ -458,7 +721,7 @@
 		<!-- Copyright -->
 		<div class="row">
 			<div class="col-md-12">
-				<div class="copyrights">© 2017 Hiwell. All Rights Reserved.</div>
+				<div class="copyrights">© 2017 Listeo. All Rights Reserved.</div>
 			</div>
 		</div>
 
@@ -469,21 +732,26 @@
 
 
 <!-- Back To Top Button -->
-	<div id="backtotop"><a href="#"></a></div>
+<div id="backtotop"><a href="#"></a></div>
+
 
 </div>
 <!-- Wrapper / End -->
-	<script src="/cdn-cgi/scripts/0e574bed/cloudflare-static/email-decode.min.js"></script>
-	<script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
-	<!-- <script type="text/javascript" src="scripts/mmenu.min.js"></script>
-	<script type="text/javascript" src="scripts/chosen.min.js"></script>
-	<script type="text/javascript" src="scripts/slick.min.js"></script> -->
-	<script type="text/javascript" src="scripts/rangeslider.min.js"></script>
-	<!-- <script type="text/javascript" src="scripts/magnific-popup.min.js"></script>
-	<script type="text/javascript" src="scripts/waypoints.min.js"></script>
-	<script type="text/javascript" src="scripts/counterup.min.js"></script> -->
-	<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
-	<!-- <script type="text/javascript" src="scripts/tooltips.min.js"></script>
-	<script type="text/javascript" src="scripts/custom.js"></script> -->
+
+
+
+<!-- Scripts
+================================================== -->
+<script src="/cdn-cgi/scripts/0e574bed/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="scripts/mmenu.min.js"></script>
+<script type="text/javascript" src="scripts/chosen.min.js"></script>
+<script type="text/javascript" src="scripts/slick.min.js"></script>
+<script type="text/javascript" src="scripts/rangeslider.min.js"></script>
+<script type="text/javascript" src="scripts/magnific-popup.min.js"></script>
+<script type="text/javascript" src="scripts/waypoints.min.js"></script>
+<script type="text/javascript" src="scripts/counterup.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
+<script type="text/javascript" src="scripts/tooltips.min.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
 </body>
 </html>
